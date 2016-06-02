@@ -21,12 +21,11 @@
     </plugins>
   </build>
   <dependencies>
-        <dependency>
+    <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-firefox-driver</artifactId>
         <version>2.48.2</version>
     </dependency>
-
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>jstl</artifactId>
