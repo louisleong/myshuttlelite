@@ -18,13 +18,13 @@ public class UITest {
     driver = new FirefoxDriver();
   }
   
-  @Test
-  public void getHomePage() {
-    driver.get(baseUrl + "/");
-String title = driver.getTitle();
-    assertEquals("The first page should have a title of Welcome",
-      "Welcome", title);
-  }
+//  @Test
+//  public void getHomePage() {
+//    driver.get(baseUrl + "/");
+//String title = driver.getTitle();
+//    assertEquals("The first page should have a title of Welcome",
+//      "Welcome", title);
+//  }
   
   @Test
   public void loginToTheSite() {
