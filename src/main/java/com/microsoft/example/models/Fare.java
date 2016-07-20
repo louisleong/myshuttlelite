@@ -4,7 +4,7 @@ import java.util.Date;
 
 /**
  * Simple class mimicking the structure of the fares table
- * in the database.
+ * in the database...
  */
 public class Fare
     implements java.io.Serializable
