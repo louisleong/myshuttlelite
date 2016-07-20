@@ -26,43 +26,43 @@ public class UITest {
 //      "Welcome", title);
 //  }
   
-  @Test
-  public void loginToTheSite() {
-    driver.get(baseUrl + "/");
-    
-    WebElement username = driver.findElement(By.name("email"));
-    WebElement password = driver.findElement(By.name("password"));
-    username.sendKeys("fred");
-    password.sendKeys("fredpassword");
-    password.submit();
-    
-    String title = driver.getTitle();
-    assertEquals("After login, the home page should have a title of Dashboard",
-      "Dashboard", title);
-  }
-  
-  @Test
-  public void viewFares() {
-    driver.get(baseUrl + "/");
-
-    // Login
-    WebElement username = driver.findElement(By.name("email"));
-    WebElement password = driver.findElement(By.name("password"));
-    username.sendKeys("fred");
-    password.sendKeys("fredpassword");
-    password.submit();
-    String title = driver.getTitle();
-    assertEquals("After login, the dashboard page should have a title of Dashboard",
-      "Dashboard", title);
-    
-    // Dashboard: just go to the next link
-    driver.get(baseUrl + "/home.jsp");
-    title = driver.getTitle();
-    //assertEquals("After the dashboard, the home page should have a title of Employee Fares",
-    //  "Employee Fares - Fred", title);
-    
-    // Home
-  }
+//  @Test
+//  public void loginToTheSite() {
+//    driver.get(baseUrl + "/");
+//    
+//    WebElement username = driver.findElement(By.name("email"));
+//    WebElement password = driver.findElement(By.name("password"));
+//    username.sendKeys("fred");
+//    password.sendKeys("fredpassword");
+//    password.submit();
+//    
+//    String title = driver.getTitle();
+//    assertEquals("After login, the home page should have a title of Dashboard",
+//      "Dashboard", title);
+//  }
+//  
+//  @Test
+//  public void viewFares() {
+//    driver.get(baseUrl + "/");
+//
+//    // Login
+//    WebElement username = driver.findElement(By.name("email"));
+//    WebElement password = driver.findElement(By.name("password"));
+//    username.sendKeys("fred");
+//    password.sendKeys("fredpassword");
+//    password.submit();
+//    String title = driver.getTitle();
+//    assertEquals("After login, the dashboard page should have a title of Dashboard",
+//      "Dashboard", title);
+//    
+//    // Dashboard: just go to the next link
+//    driver.get(baseUrl + "/home.jsp");
+//    title = driver.getTitle();
+//    //assertEquals("After the dashboard, the home page should have a title of Employee Fares",
+//    //  "Employee Fares - Fred", title);
+//    
+//    // Home
+//  }
   
   @After
   public void shutdownTheDriver() {
