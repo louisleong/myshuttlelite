@@ -22,8 +22,8 @@
                                 <div class="form-control-div">
                                     <input class="form-control" type="text" id="email" name="email" />
                                 </div>
-                                <label class="control-label" for="Password">Employee password 20</label></h4>
-                                <h4><div class="form-control-div">
+                                <h4><label class="control-label" for="Password">Employee password 20</label></h4>
+                                <div class="form-control-div">
                                     <input class="form-control" type="password" id="password" name="password" /><br />
                                     </div>
                                 </div></h4>
