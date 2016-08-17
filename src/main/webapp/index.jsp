@@ -23,10 +23,10 @@
                                     <input class="form-control" type="text" id="email" name="email" />
                                 </div>
                                 <label class="control-label" for="Password">Employee password 20</label></h4>
-                                <div class="form-control-div">
+                                <h4><div class="form-control-div">
                                     <input class="form-control" type="password" id="password" name="password" /><br />
                                     </div>
-                                </div>
+                                </div></h4>
                             <div class="form-group pull-right login_submit">
                                 <input type="submit" value="Log in" class="btn btn-primary" />
                             </div>
