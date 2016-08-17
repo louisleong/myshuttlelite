@@ -17,20 +17,12 @@
                     <div class="row">
                         <form action="login" method="post">
                             <div class="form-group">
-<<<<<<< Upstream, based on origin/master
-                                <h4><label class="control-label" for="UserName">Employee email 50</label></h4>
-=======
+
                                 <h4><label class="control-label" for="UserName">Employee email 20</label></h4>
->>>>>>> a26cbcf s
                                 <div class="form-control-div">
                                     <input class="form-control" type="text" id="email" name="email" />
                                 </div>
-                                    
-<<<<<<< Upstream, based on origin/master
-                                    <h4><label class="control-label" for="Password">Employee password 50</label></h4>
-=======
-                                    <h4><label class="control-label" for="Password">Employee password 20</label></h4>
->>>>>>> a26cbcf s
+                                <label class="control-label" for="Password">Employee password 20</label></h4>
                                 <div class="form-control-div">
                                     <input class="form-control" type="password" id="password" name="password" /><br />
                                     </div>
